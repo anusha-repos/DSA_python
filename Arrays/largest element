@@ -1,0 +1,11 @@
+a = [4,5,3,0]
+
+largest = a[0]
+
+for i in range(len(a)):
+
+    if largest < a[i]:
+
+        largest = a[i]
+
+print(largest) 
